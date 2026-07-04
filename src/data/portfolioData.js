@@ -1,83 +1,74 @@
 export const projects = [
   {
     id: 1,
-    title: "Portfolio Website",
-    description:
-      "Modern glassmorphism portfolio built with React, featuring smooth animations and responsive design.",
-    technologies: ["React", "CSS3", "JavaScript"],
-    github: "#",
-    demo: "#",
-    icon: "💼"
+    icon: "🍽️",
+    title: "Restaurant Ordering System",
+    description: "Built a full-scale Java/Swing desktop app across 14 files with OOP design patterns, implementing real-world order workflow with menu, cart, billing, and history.",
+    technologies: ["Java", "Swing", "Serialization", "OOP"],
+    github: "https://github.com/SK-Devoloper/Restaurant-Ordering-System",
+    demo: "#"
   },
-
   {
     id: 2,
-    title: "Library Management System",
-    description:
-      "Java-based desktop application using OOP principles and Java Swing GUI for managing books, members, and transactions.",
-    technologies: ["Java", "OOP", "Java Swing"],
-    github: "#",
-    demo: "#",
-    icon: "📚"
+    icon: "🏠",
+    title: "Airbnb-Inspired Property Rental",
+    description: "Web-based rental platform on Oracle APEX with listing, booking, reviews, and payment features using normalized relational schema and PL/SQL triggers.",
+    technologies: ["Oracle APEX", "SQL", "PL/SQL"],
+    github: "https://github.com/SK-Devoloper/Airbnb-Rental-System",
+    demo: "#"
   },
-
   {
     id: 3,
-    title: "Tic Tac Toe Game",
-    description:
-      "Python game with both Player vs Computer (AI) and Player vs Player modes.",
-    technologies: ["Python", "AI Logic"],
-    github: "#",
-    demo: "#",
-    icon: "🎮"
+    icon: "📚",
+    title: "Library Management System",
+    description: "Collaborative library app with search, issue, return, and fine-calculation modules with complete UML documentation.",
+    technologies: ["Java", "OOP", "UML"],
+    github: "https://github.com/SK-Devoloper/Library-management-system",
+    demo: "#"
   },
-
   {
     id: 4,
-    title: "Student Management System",
-    description:
-      "Java application for managing student records, grades and attendance.",
-    technologies: ["Java", "Java Swing"],
-    github: "#",
-    demo: "#",
-    icon: "🎓"
+    icon: "🎨",
+    title: "Portfolio Website",
+    description: "Modern glass-morphism portfolio with smooth animations, responsive design, and interactive UI components built with React.",
+    technologies: ["React.js", "CSS3", "JavaScript", "AOS"],
+    github: "https://github.com/SK-Devoloper/portfolio",
+    demo: "#"
   },
-
   {
     id: 5,
-    title: "Hotel Management System",
-    description:
-      "Hotel booking and management system with room allocation, billing and customer management.",
-    technologies: ["Java", "OOP", "GUI"],
-    github: "#",
-    demo: "#",
-    icon: "🏨"
+    icon: "🎮",
+    title: "Tic Tac Toe Game",
+    description: "Terminal-based Tic Tac Toe game with AI opponent using the Minimax algorithm, making it unbeatable in optimal play.",
+    technologies: ["Python", "Minimax Algorithm"],
+    github: "https://github.com/SK-Devoloper/Tic-Tac-Toe-AI",
+    demo: "#"
   },
-
   {
     id: 6,
-    title: "Airbnb System",
-    description:
-      "Database-driven Airbnb booking platform built with Oracle APEX.",
-    technologies: ["Oracle APEX", "SQL", "Database"],
-    github: "#",
-    demo: "#",
-    icon: "🏠"
+    icon: "🔌",
+    title: "Combinational Logic Circuit",
+    description: "Designed 4-column combinational circuit using K-map minimization and SOP expressions with Proteus simulation.",
+    technologies: ["Digital Logic Design", "K-Map", "Proteus"],
+    github: "https://github.com/SK-Devoloper/Logic-Circuit-Design",
+    demo: "#"
   },
-
   {
     id: 7,
-    title: "AI Customer Support Assistant",
-    description:
-      "AI-powered assistant that answers customer queries, automates FAQs and supports business workflows.",
-    technologies: [
-      "React",
-      "Node.js",
-      "AI API",
-      "MySQL"
-    ],
-    github: "#",
-    demo: "#",
-    icon: "🤖"
+    icon: "🏨",
+    title: "Hotel Management System",
+    description: "Console-based Java project for hotel booking and management with efficient data handling.",
+    technologies: ["Java", "OOP", "Console"],
+    github: "https://github.com/SK-Devoloper/hotel-management-system",
+    demo: "#"
+  },
+  {
+    id: 8,
+    icon: "👨‍🎓",
+    title: "Student Management System",
+    description: "Console-based Java project for managing student records and data efficiently.",
+    technologies: ["Java", "OOP", "Console"],
+    github: "https://github.com/SK-Devoloper/student-management-system",
+    demo: "#"
   }
 ];
